@@ -1,26 +1,19 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
+.inputSearchCity{
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(106, 106, 106);
+    border-radius: 0;
+    outline: none;
+    transform: translateZ(0);
+    width: 100%;
+    text-align: right;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+body{
+    background: #e6e6e675;
+}   
